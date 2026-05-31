@@ -3,8 +3,8 @@ import pandas as pd
 from datetime import datetime, timedelta
 
 # Define start and end dates
-start_date = pd.to_datetime("01/01/2024", format="%d/%m/%Y")
-end_date = pd.to_datetime("31/12/2024", format="%d/%m/%Y")
+start_date = pd.to_datetime("01/01/2025", format="%d/%m/%Y")
+end_date = pd.to_datetime("31/12/2025", format="%d/%m/%Y")
 
 # Generate daily dates between start and end date (inclusive)
 date_range = pd.date_range(start_date, end_date, freq="D")
@@ -44,5 +44,5 @@ final_result_df = pd.concat(all_days_df, axis=0)
 # Display the final DataFrame
 # print(final_result_df)
 # Export DataFrame to Excel
-final_result_df.to_excel("Phu_tai_VM_2024.xlsx")
+final_result_df.to_excel("Phu_tai_VM_2025.xlsx")
 print("Finished")
