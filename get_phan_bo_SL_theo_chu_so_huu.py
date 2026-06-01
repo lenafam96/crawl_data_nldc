@@ -15,7 +15,7 @@ all_days_df = []
 # Iterate over the date range, Fetch data from the API
 for date in date_range:
     date_str = date.strftime('%d/%m/%Y')
-    url = f"https://www.nsmo.vn/Dashboard/GetBcsxChartDataPhanBoTheoLoaiHinh?ngay={date_str}"
+    url = f"https://www.nsmo.vn/Dashboard/GetBcsxChartDataPhanBoTheoChuSoHuu?ngay={date_str}"
     try:
         response = requests.get(url)
         response.raise_for_status()
@@ -37,5 +37,5 @@ for date in date_range:
 # Concatenate all daily dataframes into one final DataFrame
 final_result_df = pd.concat(all_days_df, axis=0)
 
-final_result_df.to_excel("Phan_bo_san_luong.xlsx")
+final_result_df.to_excel("Phan_bo_SL_theo_chu_so_huu_2021_2026.xlsx")
 print("Finished")
