@@ -3,8 +3,8 @@ import pandas as pd
 from datetime import datetime, timedelta
 
 # Define start and end dates
-start_date = pd.to_datetime("01/01/2021", format="%d/%m/%Y")
-end_date = pd.to_datetime("31/05/2026", format="%d/%m/%Y")
+start_date = pd.to_datetime("01/12/2021", format="%d/%m/%Y")
+end_date = pd.to_datetime("01/12/2021", format="%d/%m/%Y")
 
 # Generate daily dates between start and end date (inclusive)
 date_range = pd.date_range(start_date, end_date, freq="D")

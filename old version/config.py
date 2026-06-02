@@ -8,7 +8,7 @@ session.headers.update({
     'Connection': 'keep-alive',
     'Content-Type': 'application/text; charset=utf-8',
     'Cookie': '.AspNetCore.Antiforgery.ovZy99TDzzU=CfDJ8M7BBblHs0ZEv_a3o9khR4r4nCaqyweYf8lS62uTxtjGUXyLZBpWmk7sKPvuqzV_IA1pdkoFweriuv100VRKwt9236sqDCdccWXsVv6FDTSq4fLe9fyhOXO7UMGrjbg2RaNxiSNKbDLet4TdDlt0IZQ; Abp.TenantId=1; .AspNetCore.Culture=c%3Dvi%7Cuic%3Dvi; XSRF-TOKEN=CfDJ8M7BBblHs0ZEv_a3o9khR4py8y2TMIa8ULt09UF8iiOAJDYdp-4bLSpeMDW3t2k2CY83QkOs3hld5eD7AnuHQe494YPrj796j2HPQQVX-qgr94z61LCwTvPqx7u4uBhdS4lSdOz5CI1iuL4FcHWjv50',
-    'Referer': 'https://www.nsmo.vn/dashboard/tonghop',
+    'Referer': 'https://www.nsmo.vn',
     'Sec-Fetch-Dest': 'empty',
     'Sec-Fetch-Mode': 'cors',
     'Sec-Fetch-Site': 'same-origin',

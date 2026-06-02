@@ -10,8 +10,8 @@ with open ("thong_so_vh.csv", "w", encoding='utf-8') as f:
 with open ("cong_suat_hd.csv", "w", encoding='utf-8') as f:
     f.write('')
 
-start_date = datetime(2021, 1, 1)
-while start_date < datetime(2022, 1, 1):
+start_date = datetime(2025, 1, 1)
+while start_date < datetime(2025, 1, 2):
     day = start_date.date().strftime("%d")
     month = start_date.date().strftime("%m")
     year = start_date.date().strftime("%Y")
@@ -27,7 +27,7 @@ while start_date < datetime(2022, 1, 1):
         f.write("\n")
 
 
-    if (start_date >= datetime(2022, 1, 1)):
+    if (start_date >= datetime(2025, 1, 2)):
         result = BeautifulSoup(thong_so_vh(day, month, year, session))
 
         # get content of div with class = "nameColum mb-3"

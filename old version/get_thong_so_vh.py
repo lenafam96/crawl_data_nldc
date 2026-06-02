@@ -1,5 +1,5 @@
 def thong_so_vh(day,month,year,session):
-    url = f"https://www.nldc.evn.vn/HTDThongSoVH?day={day}%2F{month}%2F{year}"
+    url = f"https://www.nsmo.vn/HTDThongSoVH?day={day}%2F{month}%2F{year}"
     
     payload = {}
 
